@@ -11,6 +11,7 @@ Berisi API tentang Data Indonesia.
 * [Daftar dalam Bahasa Lain](#daftar-dalam-bahasa-lain)
 * [Daftar Isi](#daftar-isi)
 * [Daftar API](#daftar-api)
+  * [Berita](#berita)
   * [E-Commerce](#e-commerce)
   * [Finansial](#finansial)
   * [Forum](#forum)
@@ -18,6 +19,7 @@ Berisi API tentang Data Indonesia.
   * [Jasa Pengiriman](#jasa-pengiriman)
   * [Kegiatan Sehari-hari](#kegiatan-sehari-hari)
   * [Kegiatan Khusus](#kegiatan-khusus)
+  * [Kesehatan](#kesehatan)
   * [Lokasi](#lokasi)
   * [Musik](#musik)
   * [Pemerintahan](#pemerintahan)
@@ -28,12 +30,21 @@ Berisi API tentang Data Indonesia.
 
 ## Daftar API
 
+### Berita
+
+| Nama API        | Developer | URL | Status  | Deskripsi | `Auth` |
+| --------------- |:---------:|:---:|:-------:|:----------|:------:|
+| Indonesia news API | News API | [Link](https://newsapi.org/s/indonesia-news-api) | `Aktif` | API untuk mendapatkan update berita di indonesia | `apiKey` |
+
 ### *E-Commerce*
 
 | Nama API        | Developer | URL | Status  | Deskripsi | `Auth` |
 | --------------- |:---------:|:---:|:-------:|:----------|:------:|
 | Matahari Mall API for Seller | Matahari Mall Dev | [Link](http://docs.apiforseller.apiary.io) | `Aktif` | API untuk penjual di Matahari Mall | `apiKey` |
 | Tiket.com API | Tiket.com Dev | [Link](http://docs.tiket.com/) | `Aktif` | API untuk transaksi pada tiket.com yang merupakan situs penjualan tiket kereta api, tiket pesawat, dan lain-lain. | `apiKey` |
+| Tokopedia.com API | Tokopedia.com Dev | [Link](https://developer.tokopedia.com/openapi/guide/) | `Aktif` | API ini memungkinkan Anda untuk mengintegrasikan sistem Anda ke dalam Tokopedia | `apiKey` |
+| JD.id API | JD.id Dev | [Link](https://api.jd.id/home) | `Aktif` | API ini memungkinkan Anda untuk mengintegrasikan sistem Anda ke dalam JD.id | `apiKey` |
+| Elevenia.co.id API | Elevenia.co.id Dev | [Link](hhttp://soffice.elevenia.co.id/jsp/openapi/in/docs/ProductAPI_latest.pdf) | `Aktif` | API ini memungkinkan Anda untuk mengintegrasikan sistem Anda ke dalam Elevenia | `apiKey` |
 
 ### Finansial
 
@@ -65,6 +76,7 @@ Berisi API tentang Data Indonesia.
 | Cek Resi | Wahid | [Link](http://wahidganteng.ga/api/cek-resi) | `Aktif` | Pengecekan resi jasa ekspedisi terkenal di Indonesia seperti [JNE], [SiCepat] dan [Wahana] | `apiKey` |
 | Paket ID | paket.id | [Link](http://docs.paket.id/API/Versi_2.html) | `Aktif` | Jasa pengiriman | `apiKey` |
 | Raja Ongkir | Rajaongkir | [Link](http://rajaongkir.com/dokumentasi) | `Aktif` | Cek ongkos kirim pada beberapa jasa antar barang seperti [JNE], [POS], [TIKI], dan lain-lain. | `apiKey` |
+| Cek Resi | binderbyte | [Link](https://docs.binderbyte.com/api/cek-resi) | `Aktif` | API Cek Resi adalah api yang berguna untuk melacak resi secara otomatis mulai dari jne, pos, jnt, wahana, tiki, sicepat dll. | `apiKey` |
 
 ### Kegiatan Sehari-hari
 
@@ -77,6 +89,13 @@ Berisi API tentang Data Indonesia.
 | Nama API        | Developer | URL | Status  | Deskripsi | `Auth` |
 | --------------- |:---------:|:---:|:-------:|:----------|:------:|
 | Ayo Donor PMI | iBachor | [Link](https://github.com/bachors/apiapi#ayo-donor-pmi) | `Aktif` | API untuk kegiatan dari PMI mengenai donor darah | Tidak |
+
+### Kesehatan
+
+| Nama API        | Developer | URL | Status  | Deskripsi | `Auth` |
+| --------------- |:---------:|:---:|:-------:|:----------|:------:|
+| Data Pandemi Covid-19 | Teguh Aprianto | [Link](https://kawalcorona.com/api/) | `Aktif` | API untuk memantau dearah-dearah yang terjangkit virus covid-19/corona | Tidak |
+| Data Pandemi Covid-19 | Muhammad Mustadi (mathdroid) | [Link](https://covid19.mathdro.id/api) | `Aktif` | API untuk memantau dearah-dearah yang terjangkit virus covid-19/corona | Tidak |
 
 ### Lokasi
 
@@ -94,6 +113,8 @@ Berisi API tentang Data Indonesia.
 | --------------- |:---------:|:---:|:-------:|:----------|:------:|
 | Lirik Lagu | iBachor | [Link](https://github.com/bachors/apiapi#lirik-lagu) | `Aktif` | Pencarian lirik lagu | Tidak |
 | Spotify | Spotify Dev | [Link](https://developer.spotify.com/web-api/) | `Aktif` | Spotify Catalog | `OAuth` |
+| SoundCloud | SoundCloud Dev | [Link](https://developers.soundcloud.com/) | `Aktif` | upload dan share music | `apiKey` |
+| MusixMatch | MusixMatch Dev | [Link](https://developer.musixmatch.com/) | `Aktif` | Mencari Informasi dan Lirik lagu | `apiKey` |
 
 ### Pemerintahan
 
@@ -124,6 +145,9 @@ Berisi API tentang Data Indonesia.
 Jika ada yang ingin ditambahkan atau dikoreksi bisa PM ke Facebook saya [Fariz Ramadhan](https://www.facebook.com/farizdotid) ya! ATAU berkomentar via fitur [Issues](https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA/issues) ATAU langsung edit saja nanti biar didiskusikan terlebih dahulu.
 
 Hatur Nuhun. :)
+
+## :fire: TERIMAKASIH :fire:
+Terimakasih untuk kalian yang udah ikut ber-kontribusi! :heart:
 
 # Lisensi
 
